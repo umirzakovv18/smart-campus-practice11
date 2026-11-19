@@ -1,0 +1,22 @@
+F1 invented person/purpose : {
+  ok: true,
+  value: 'Room 201 is not available because Prof. Smith booked it for an exam.'
+}
+F2 contradiction           : {
+  ok: true,
+  value: 'Room 102 is not available? Wrong, it is free and you can book it right now.'
+}
+F3a "6pm"                  : {
+  ok: true,
+  value: 'Room 101 is free from 09:30 to 10:00 and stays free until 6pm today.'
+}
+F3b "11.30"                : {
+  ok: true,
+  value: 'Room 101 is free from 09:30 to 10:00 and again from 11.30.'
+}
+F3c "room 999"             : {
+  ok: true,
+  value: 'Room 101 is free; room 999 and Hall 7 are also free.'
+}
+F4 breakout accepted       : true 2 FACTS blocks in prompt
+F5 "9:30" decision / view  : available rejected

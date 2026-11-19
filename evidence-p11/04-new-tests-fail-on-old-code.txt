@@ -1,0 +1,5 @@
+not ok 27 - T16 (review F1) invented person or booking purpose is rejected
+not ok 28 - T17 (review F2) a reply that says unavailable AND free is rejected
+# tests 53
+# pass 51
+# fail 2
